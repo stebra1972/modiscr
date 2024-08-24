@@ -1,7 +1,30 @@
-body {
-    /* Center the form on the page */
-    text-align: center;
-  }
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-section {
+    flex: 1;
+    background-image: url('image/sfondo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.right-section {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
   
   form {
     display: inline-block;
@@ -63,4 +86,14 @@ body {
        between the labels and their text fields */
     margin-left: 0.5em;
   }
+
+  @font-face {
+    font-family: my-cool-font;
+    src: url(font/rubik-bold.woff2);
+  }
+  
+  h1 {
+    font-family: my-cool-font, sans-serif;
+  }
+  
   
