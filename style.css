@@ -30,6 +30,9 @@ body, html {
     background-position: center;
     opacity: 0.53;
     display: flex;
+    box-shadow: inset 0 -3em 3em rgb(0 200 0 / 30%),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgb(200 0 0 / 60%); rgba(255, 204, 95, 0.856);
     
 
 }
@@ -83,10 +86,10 @@ body, html {
   
   form {
     display: inline-block;
-    /* Form outline */
-    padding: 1em;
-    border: 1px solid #ccc;
-    border-radius: 1em;
+    padding:0px;
+  ;    
+    
+    
   }
   
   ul {
