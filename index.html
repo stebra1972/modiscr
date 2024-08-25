@@ -39,14 +39,15 @@
                                 <label for="NOME">NOME:</label>
                                 <strong><span aria-label="required">*</span></strong>
                                 <br> 
-                                <input type="NOME" id="NOME" name="NOME" required />
+                                <input type="NOME" id="NOME" name="NOME" required type="text" pattern="[a-z]+"/>
+
                                 </li>
                                 <br>
                                 <li>
                                 <label for="mail">EMAIL:</label>
                                     <strong><span aria-label="required">*</span></strong>
                                     <br>
-                                    <input type="email" id="mail" name="email" />
+                                    <input type="email" id="mail" name="email" type="email" required type="text"  />
                                     <br>
                                     </li>
                                     <br>
@@ -54,7 +55,7 @@
                                     <label for="password">PASSWORD</label>
                                     <strong><span aria-label="required">*</span></strong>
                                     <br>
-                                    <input type="password" id="password" name="password" />
+                                    <input type="password" id="password" name="password" type="password" required type="password"  />
                                     </li>
                                     <br>
                                 </ul>
@@ -66,21 +67,21 @@
                                     <label for="lastname">COGNOME</label>
                                     <strong><span aria-label="required">*</span></strong>
                                     <br>
-                                    <input type="text" id="lastname" name="last_name" />
+                                    <input type="text" id="lastname" name="last_name" required type="text" pattern="[a-z]+"/>
                                     </li>
                                     <br>
                                     <li> 
                                     <label for="phone">CELLULARE</label>
                                     <strong><span aria-label="required">*</span></strong>
                                     <br>
-                                    <input type="phone" id="phone" name="phone" />
+                                    <input type="tel" id="phone" name="phone" input type="tel"  pattern="[3-9]{3}[0-9]{7}" required />
                                     </li>
                                    <br>  
                                     <li>
                                     <label for="confermapw">CONFERMA PASSWORD</label>
                                     <strong><span aria-label="required">*</span></strong>
                                     <br>
-                                    <input type="password" id="confermapw" name="password" />
+                                    <input type="password" id="password" name="password" type="password" required type="password"  />
                                     </li>
                                     <br>
                                 </ul>
