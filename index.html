@@ -8,69 +8,87 @@
   
 
 </head>
-<body>
+
     <body>
         <div class="container">
             <div class="left-section">
                 <!-- Left section content -->
-                <div class="logo-section"></div>
+                <div class="logo-section">
+                </div>
             </div>
-            <div class="right-section">
-                <!-- Right section content -->
-                 <div class="top-section">
-                <!-- Top section content -->
-                          
-            <h1>Questo non è un servizio online virtuale !<br> 
-                <br>          
-            Sai che hai bisogno di qualcosa come questo nella tua vita per aiutarti a realizzare i tuoi sogni più profondi.</h1>
+                    <div class="right-section">
+                    <!-- Right section content -->
+                        <div class="top-section">
+                        <!-- Top section content -->
+                        <h1>Questo non è un servizio online virtuale !<br> 
+                        <br>          
+                        Sai che hai bisogno di qualcosa come questo nella tua vita per aiutarti a realizzare i tuoi sogni più profondi.</h1>
                  
-        </div>
+                        </div>
 
-                <div class="middle-section">
-                <!-- Middle section content -->
-        
-                    <form action="/my-handling-form-page" method="post">
-                        <ul>
-                            <li>
-                                <label for="NOME">
-                                    <span>NOME: </span>
+                        <div class="middle-section">
+                            <div class="vertical-container">
+                                <div class="vertical-left">
+                                <form action="/my-handling-form-page" method="post">
+                                <ul>
+                                <li>
+                                <label for="NOME"><span>NOME: </span>
                                     <strong><span aria-label="required">*</span></strong>
-                                  </label>
-                                  <input type="text" id="name" name="username" required />
+                                </label>
+                                <br>
+                                <input type="text" id="name" name="username" required />
+                                </li>
+                                <li>
+                                <label for="mail">EMAIL:</label>
+                                    <strong><span aria-label="required">*</span></strong>
+                                    <br>
+                                    <input type="email" id="mail" name="user_email" />
+                                    </li>
+                                    <li>
+                                    <label for="password">PASSWORD</label>
+                                    <strong><span aria-label="required">*</span></strong>
+                                    <br>
+                                    <input type="password" id="password" name="password" />
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="vertical-right">
+                                <ul >
+                                    <li>
+                                    <label for="lastname">COGNOME</label>
+                                    <strong><span aria-label="required">*</span></strong>
+                                    <br>
+                                    <input type="text" id="lastname" name="last_name" />
+                                    </li>
+                                    <li> 
+                                    <label for="phone">CELLULARE</label>
+                                    <strong><span aria-label="required">*</span></strong>
+                                    <br>
+                                    <input type="phone" id="phone" name="phone" />
+                                    </li>
+                                    <li>
+                                    <label for="password">CONFERMA PASSWORD</label>
+                                    <strong><span aria-label="required">*</span></strong>
+                                    <br>
+                                    <input type="password" id="password" name="password" />
+                                    </li>
+                                </ul>
+                            </form>
+                            </div>
+                        </div>
                             
-                        <label for="lastname">COGNOME</label>
-                        <input type="text" id="lastname" name="last_name" />
-                            </li>
-                            <li>
-                        <label for="mail">EMAIL:</label>
-                        <input type="email" id="mail" name="user_email" />
-                            
-                        <label for="phone">CELLULARE</label>
-                        <input type="phone" id="phone" name="phone" />
-                            </li>
-                            <li>
-                        <label for="password">PASSWORD</label>
-                         <input type="password" id="password" name="password" />
-                            
-                        <label for="password">CONFERMA PASSWORD</label>
-                        <input type="password" id="password" name="password" />
-                            </li>
-                        </ul>
-                    </form>
-                </div>   
-                            
-                <div class="bottom-section">
-                <!-- Bottom section content -->
-              
+                        <div class="bottom-section">
+                        <!-- Bottom section content -->
                               <div class="button">
                             <button type="submit">Crea Account</button>
                             </div>
                             <br>
                               <p> Hai già un account? </p>
                             <a href="login.html">Accedi</a>
-                </div>    
-            </div>
-        </div>                 
-                  
+                        </div>    
+                    </div>
+        </div>             
+        
 </body>
 </html>

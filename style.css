@@ -70,6 +70,24 @@ body, html {
     justify-content: center;
     align-items: center;
     background-color:white;
+    flex-direction: column;
+  
+}
+
+.vertical-container {
+  display: flex;
+  flex-direction:row;
+  width: 100%;
+  height: 100%;
+}
+
+.vertical-left, .vertical-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
 .bottom-section {
