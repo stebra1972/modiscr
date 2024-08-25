@@ -32,9 +32,11 @@
                     <form action="/my-handling-form-page" method="post">
                         <ul>
                             <li>
-                        <label for="firstname">NOME</label>
-                        <input type="text" id="firstname" name="first_name" />
-                            
+                                <label for="NOME">
+                                    <span>NOME: </span>
+                                    <strong><span aria-label="required">*</span></strong>
+                                  </label>
+                                  <input type="text" id="name" name="username" required />
                             
                         <label for="lastname">COGNOME</label>
                         <input type="text" id="lastname" name="last_name" />
